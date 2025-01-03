@@ -1,0 +1,145 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+  }
+  
+  .container {
+    width: 80%;
+    max-width: 1200px;
+    /* margin: 0 auto; */
+    display: flex;
+    flex-wrap: wrap;
+    
+   
+  }
+  
+  .logo{
+    height: 50px;
+    display: flex;
+    margin: 20px;
+    padding: 50px;
+    align-content: center;
+    flex-wrap: wrap;
+  }
+  .header {
+    background: #fff;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+   
+  }
+    
+ 
+  
+  .nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    
+  }
+  
+  .nav ul li {
+    margin: 0 15px;
+  }
+  
+  .nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-family: serif;
+    font-size: 19px;
+    
+
+  }
+  .nav ul li a:hover{
+    transition: 0.4s;
+    color: #8e27ce;
+    font-size: 20px;
+    
+  }
+
+  .box{
+    display: flex;
+    background-color: rgb(92, 181, 203);
+    color: white;
+    font-family: sans-serif;
+    font-weight: 2px;
+    flex-wrap: wrap;
+    
+  }
+  .box:hover {
+    background-color: #4a90d6;
+}
+
+  .info {
+    /* margin: 0 auto; */
+}
+  .info p{
+    width: 1000px;
+    
+    
+
+  }
+  .content{
+    display: grid;
+    color: rgb(65, 64, 64);
+    grid-template-columns: 1fr 2fr 1fr;
+    flex-wrap: wrap;
+   
+   
+}
+.project{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    flex-wrap: wrap;
+  
+}
+.unisoft{
+    
+
+}
+.unisoft p{
+    width: 900px;
+}
+.unisoft h1{
+    width: 900px;
+    color: rgb(245, 111, 111);
+}
+.unisoft h1:hover {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+.client{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    flex-wrap: wrap;
+   
+
+}
+.client img{
+    width: 150px;
+    height: 150px;
+    
+}
+.project{
+    display: grid;
+}
+
+.project .company{
+    display: grid;
+
+}
+
+.project .company1{
+    display: grid;
+}
+
+button:hover {
+    background-color: #a284b7;
+    transform: scale(1.1);
+}
